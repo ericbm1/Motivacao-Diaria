@@ -1,129 +1,130 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-size: 14px;
-  margin: 0;
-  padding: 0;
 }
-
 .v8_2 {
   width: 100%;
-  height: auto; /* Ajuste para auto */
-  background: rgba(4, 4, 4, 1);
+  height: 1117px;
+  background: rgba(4,4,4,1);
+  opacity: 1;
   position: relative;
+  top: 0px;
+  left: 0px;
   overflow: hidden;
 }
-
 .v2_5 {
-  width: 80%; /* Ajuste para melhor adaptação */
-  color: rgba(0, 0, 0, 1);
+  width: 80%;
+  color: rgb(247, 247, 247);
   position: absolute;
-  top: 10%; /* Ajuste em porcentagem */
-  left: 10%; /* Centraliza mais */
+  top: 10%;
+  left: 10%;
   font-family: Inter;
   font-weight: bold;
-  font-size: 5vw; /* Ajuste proporcional */
+  font-size: 5vw;
   text-align: center;
 }
-
 .v3_79 {
-  width: 80%; /* Ajuste para melhor adaptação */
-  height: auto; /* Mantém a proporção */
-  background: rgba(255, 255, 255, 1);
+  width: 347px;
+  height: 239px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
   position: absolute;
-  top: 20%; /* Ajuste em porcentagem */
-  left: 10%; /* Centraliza mais */
+  top: 158px;
+  left: 120px;
   overflow: hidden;
 }
-
 .v3_21 {
-  height: 60%; /* Ajuste proporcional */
+  height: 964px;
   background: url("../images/v3_21.png");
+  opacity: 1;
   position: absolute;
-  top: 20%; /* Ajuste em porcentagem */
-  left: 75%; /* Ajuste proporcional */
-  border: 1px solid rgba(245, 245, 245, 1);
+  top: 158px;
+  left: 866px;
+  border: 1px solid rgba(245,245,245,1);
 }
-
 .v4_6 {
-  width: 80%; /* Ajuste para melhor adaptação */
-  height: auto; /* Para manter proporção */
+  width: 487px;
+  height: 315px;
   background: url("../images/v4_6.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  opacity: 1;
   position: absolute;
-  top: 35%; /* Ajuste em porcentagem */
-  left: 10%; /* Centraliza mais */
+  top: 411px;
+  left: 1063px;
+  overflow: hidden;
 }
-
 .v4_7 {
-  width: 60%; /* Ajuste proporcional */
-  color: rgba(255, 255, 255, 1);
+  width: 341px;
+  color: rgba(255,255,255,1);
   position: absolute;
-  top: 75%; /* Ajuste em porcentagem */
-  left: 10%; /* Centraliza mais */
+  top: 790px;
+  left: 1136px;
   font-family: Inter;
-  font-weight: bold;
-  font-size: 3vw; /* Ajuste proporcional */
+  font-weight: Bold Italic;
+  font-size: 16px;
+  opacity: 1;
   text-align: left;
 }
-
 .v4_8 {
-  width: 40%; /* Ajuste proporcional */
-  height: auto; /* Para manter proporção */
-  background: rgba(217, 217, 217, 1);
+  width: 288px;
+  height: 34px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
   position: absolute;
-  top: 30%; /* Ajuste em porcentagem */
-  left: 60%; /* Ajuste proporcional */
+  top: 327px;
+  left: 1189px;
+  overflow: hidden;
 }
-
 .v4_11 {
-  width: 30%; /* Ajuste proporcional */
-  color: rgba(0, 0, 0, 1);
+  width: 244px;
+  color: rgba(0,0,0,1);
   position: absolute;
-  top: 35%; /* Ajuste em porcentagem */
-  left: 70%; /* Ajuste proporcional */
+  top: 335px;
+  left: 1211px;
   font-family: Inter;
-  font-weight: bold;
-  font-size: 3vw; /* Ajuste proporcional */
+  font-weight: Bold Italic;
+  font-size: 16px;
+  opacity: 1;
   text-align: left;
 }
-
 .v3_19 {
-  width: 50%; /* Ajuste proporcional */
-  color: rgba(245, 245, 245, 1);
+  width: 261px;
+  color: rgba(245,245,245,1);
   position: absolute;
-  top: 70%; /* Ajuste em porcentagem */
-  left: 25%; /* Centraliza mais */
+  top: 650px;
+  left: 257px;
   font-family: Inria Sans;
-  font-weight: bold;
-  font-size: 3vw; /* Ajuste proporcional */
+  font-weight: Bold Italic;
+  font-size: 16px;
+  opacity: 1;
   text-align: center;
 }
-
 .v4_5 {
-  width: 60%; /* Ajuste proporcional */
-  color: rgba(255, 255, 255, 1);
+  width: 274px;
+  color: rgba(255,255,255,1);
   position: absolute;
-  top: 45%; /* Ajuste em porcentagem */
-  left: 10%; /* Centraliza mais */
+  top: 411px;
+  left: 120px;
   font-family: Inter;
-  font-weight: normal;
-  font-size: 2vw; /* Ajuste proporcional */
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
   text-align: left;
 }
-
 .v4_3 {
-  width: 10%; /* Ajuste proporcional */
-  height: auto; /* Para manter proporção */
-  background: rgba(0, 0, 0, 1);
+  width: 32px;
+  height: 27px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
   position: absolute;
-  top: 25%; /* Ajuste em porcentagem */
-  left: 30%; /* Ajuste proporcional */
+  top: 264px;
+  left: 278px;
 }
+
 @media screen and (max-width: 1024px) {
   body {
     font-size: 14px;
@@ -140,14 +141,14 @@ body {
   }
 
   .v2_5 {
-    width: 80%; /* Aumenta a largura para melhor adaptação */
-    color: rgba(0, 0, 0, 1);
+    width: 100%; /* Aumenta a largura para melhor adaptação */
+    color: rgb(255, 255, 255);
     position: absolute;
-    top: 10%; /* Ajuste em porcentagem */
-    left: 10%; /* Centraliza mais */
+    top: 50%; /* Ajuste em porcentagem */
+    left: 50%; /* Centraliza mais */
     font-family: Inter;
     font-weight: bold;
-    font-size: 5vw; /* Ajuste proporcional */
+    font-size: 10vw; /* Ajuste proporcional */
     text-align: center;
   }
 
