@@ -125,3 +125,129 @@ body {
   top: 264px;
   left: 278px;
 }
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .v8_2 {
+    width: 100%;
+    height: auto; /* Ajuste a altura para auto */
+    background: rgba(4, 4, 4, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .v2_5 {
+    width: 80%; /* Aumenta a largura para melhor adaptação */
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 10%; /* Ajuste em porcentagem */
+    left: 10%; /* Centraliza mais */
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 5vw; /* Ajuste proporcional */
+    text-align: center;
+  }
+
+  .v3_79 {
+    width: 80%; /* Aumenta a largura */
+    height: auto; /* Mantém a proporção */
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 20%; /* Ajuste em porcentagem */
+    left: 10%; /* Centraliza mais */
+    overflow: hidden;
+  }
+
+  .v3_21 {
+    height: 40%; /* Ajuste proporcional */
+    background: url("../images/v3_21.png");
+    position: absolute;
+    top: 25%; /* Ajuste em porcentagem */
+    left: 75%; /* Ajuste proporcional */
+    border: 1px solid rgba(245, 245, 245, 1);
+  }
+
+  .v4_6 {
+    width: 80%; /* Ajuste para melhor adaptação */
+    height: auto; /* Para manter proporção */
+    background: url("../images/v4_6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 40%; /* Ajuste em porcentagem */
+    left: 10%; /* Centraliza mais */
+    overflow: hidden;
+  }
+
+  .v4_7 {
+    width: 60%; /* Ajuste proporcional */
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 75%; /* Ajuste em porcentagem */
+    left: 10%; /* Centraliza mais */
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 3vw; /* Ajuste proporcional */
+    text-align: left;
+  }
+
+  .v4_8 {
+    width: 40%; /* Ajuste proporcional */
+    height: auto; /* Para manter proporção */
+    background: rgba(217, 217, 217, 1);
+    position: absolute;
+    top: 30%; /* Ajuste em porcentagem */
+    left: 60%; /* Ajuste proporcional */
+    overflow: hidden;
+  }
+
+  .v4_11 {
+    width: 30%; /* Ajuste proporcional */
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 35%; /* Ajuste em porcentagem */
+    left: 70%; /* Ajuste proporcional */
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 3vw; /* Ajuste proporcional */
+    text-align: left;
+  }
+
+  .v3_19 {
+    width: 50%; /* Ajuste proporcional */
+    color: rgba(245, 245, 245, 1);
+    position: absolute;
+    top: 70%; /* Ajuste em porcentagem */
+    left: 25%; /* Centraliza mais */
+    font-family: Inria Sans;
+    font-weight: bold;
+    font-size: 3vw; /* Ajuste proporcional */
+    text-align: center;
+  }
+
+  .v4_5 {
+    width: 60%; /* Ajuste proporcional */
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 45%; /* Ajuste em porcentagem */
+    left: 10%; /* Centraliza mais */
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 2vw; /* Ajuste proporcional */
+    text-align: left;
+  }
+
+  .v4_3 {
+    width: 10%; /* Ajuste proporcional */
+    height: auto; /* Para manter proporção */
+    background: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 25%; /* Ajuste em porcentagem */
+    left: 30%; /* Ajuste proporcional */
+  }
+}
